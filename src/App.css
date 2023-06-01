@@ -1,0 +1,52 @@
+ /* Outter Box Styling  */
+ body {
+margin-top: 20px; 
+margin-left: 299px;
+margin-right: 299px;
+height: 92vh;
+border: 2px solid rgb(17, 17, 17);
+position: relative;
+border-width: 1px;
+} 
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position:absolute;
+} 
+/* Inner Box */
+.menu-container {
+border: 1px solid rgb(41, 41, 41);
+padding: 10px;
+border-radius: 10px;
+inline-size: 15px; 
+width: 780px;
+}
+
+.menu-item {
+  margin-bottom: 10px;
+ 
+}
+
+/* Horizontal Line */
+.menu-item-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+
+/* Styling description Description  */
+.descrip {
+  font-style: italic;
+  color: rgb(39, 38, 39);
+  font-family:Arial, Helvetica, sans-serif;
+  font: size 17px;
+}
+
+/* Styling price   */
+.price {
+  color: red;
+  font-family:Arial, Helvetica, sans-serif;
+}
